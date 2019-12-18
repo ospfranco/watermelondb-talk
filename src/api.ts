@@ -5,8 +5,11 @@ export const api = {
         changes: {
           project: {
             created: [
-              // { id: 'aaaa', name: 'Foo', is_favorite: true },
-              // { id: 'bbbb', name: 'Bar', is_favorite: false },
+              {id: 1, name: 'China', userCount: 20, taskCount: 30},
+              {id: 2, name: 'Germany', userCount: 100, taskCount: 90},
+              {id: 3, name: 'U.S.', userCount: 200, taskCount: 110},
+              {id: 4, name: 'France', userCount: 300, taskCount: 3000},
+              {id: 5, name: 'UK', userCount: 400, taskCount: 10},
             ],
             updated: [
               // { id: 'ccc', name: 'Baz', is_favorite: true },

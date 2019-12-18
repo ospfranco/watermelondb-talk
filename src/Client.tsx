@@ -10,9 +10,9 @@ export class Client {
   ) {
     if (syncOnChange) {
       // Replace with a nicer implementation of your table names
-      database.withChangesForTables(['project']).subscribe(r => {
-        this.sync();
-      });
+      // database.withChangesForTables(['project']).subscribe(r => {
+      //   this.sync();
+      // });
     }
   }
 

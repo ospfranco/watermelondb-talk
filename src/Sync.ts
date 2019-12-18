@@ -9,8 +9,6 @@ export function internalSync(database: Database, deep: boolean) {
     pullChanges: async ({lastPulledAt}) => {
       //@ts-ignore
       const {changes, timestamp} = await api.pullDbChanges();
-      console.warn('changes');
-
       return {
         changes,
         timestamp,
